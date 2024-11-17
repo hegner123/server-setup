@@ -1,0 +1,11 @@
+export ZSH="/Users/home/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+
+plugins=(git wp-cli)
+
+. $ZSH/oh-my-zsh.sh
+
+alias ll='ls -al'
+alias reload='source ~/.zshrc'
+alias showzsh='nvim ~/.zshrc'
+alias showlogs='cd /var/log'
